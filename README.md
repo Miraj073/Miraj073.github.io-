@@ -1,50 +1,40 @@
-# Abdullah Al Miraj — Academic Portfolio
+# Abdullah Al Miraj — Academic portfolio (redesigned)
 
-A professional, responsive academic website prepared for **GitHub Pages** at **https://miraj073.github.io/**.
+A polished, editorial-style, responsive academic site ready for **GitHub Pages** at `https://miraj073.github.io/`.
 
-Built using plain HTML, CSS, and JavaScript (no frameworks, dependencies, build process, or hosting fees required). Content is adapted from the public Google Site and updated using the November 8, 2026 academic CV.
+## Publish
 
-## Publish it to GitHub Pages
+1. Create a **public** GitHub repository named `Miraj073.github.io` from your `Miraj073` account (or use that existing repository).
+2. Upload the **contents** of this folder/ZIP to the repository root. `index.html` must be at the top level, beside `assets/`.
+3. In the GitHub repository, choose **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**.
+4. When the deployment is complete, visit `https://miraj073.github.io/`.
 
-1. Sign in to GitHub as **Miraj073**.
-2. Create a **public** repository named exactly **`Miraj073.github.io`**. Repository names are case-insensitive, but the `username.github.io` convention matters.
-3. Upload **all files and folders from this ZIP**, directly to the repository's root (not inside an extra enclosing folder). Make sure `index.html` is at the root and `assets/` is beside it.
-   - GitHub website: **Add file → Upload files → Commit changes**.
-   - Alternatively, use Git from a folder containing `index.html`: `git init`, `git add .`, `git commit -m "Launch academic portfolio"`, `git branch -M main`, `git remote add origin https://github.com/Miraj073/Miraj073.github.io.git`, `git push -u origin main`.
-4. Go to repository **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/(root)**, then **Save**.
-5. Open **https://miraj073.github.io/** when GitHub Pages indicates deployment has completed.
+You can preview offline by opening `index.html` in a browser. A local server (`python -m http.server 8000`) is optional.
 
-You can preview it locally by double-clicking `index.html` or running `python -m http.server 8000` in the folder and opening `http://localhost:8000`.
+## Editing
 
-## Where to edit
+- `index.html`: all copy, research, publications, roles, links, and SEO.
+- `assets/styles.css`: color, typography, spacing, card layout, and mobile responsiveness.
+- `assets/script.js`: mobile menu, publication filters, and active section navigation.
+- `assets/*.svg`: original abstract illustrations and page branding. They can be replaced with your real lab photographs/SEM images.
+- `assets/Abdullah_Al_Miraj_CV.pdf`: November 8, 2026 academic CV.
 
-- **`index.html`** — all text, publications, projects, roles, links, and SEO metadata.
-- **`assets/styles.css`** — typography, layout, palette, and responsive design.
-- **`assets/script.js`** — mobile menu, publication filters, smooth navigation behaviors, and photo fallback.
-- **`assets/Abdullah_Al_Miraj_CV.pdf`** — downloadable academic CV, from your November 8 version.
-- **`assets/*.svg`** — custom vector research/project illustrations, website icon, and sharing preview.
+### Portrait
 
-### Personal photo
-
-The portrait automatically uses your **GitHub account avatar** via `https://github.com/Miraj073.png?size=600`. If it cannot load, a graceful initials placeholder is shown. For the most reliable long-term result, copy your preferred portrait as `assets/headshot.jpg`, then replace the `src` of `<img id="profile-photo">` in `index.html` with `assets/headshot.jpg`. The Google Site profile photo is not bundled because it is not available as a stable local source file.
+The small portrait on the hero board loads your public GitHub avatar (`github.com/Miraj073.png?size=240`) and falls back to initials if unavailable. For a custom portrait, place your photo at `assets/headshot.jpg` and replace the `src` of `id="profile-photo"` in `index.html`.
 
 ### Google Scholar
 
-The Google Scholar button currently opens a **search** for your name, not a verified public Scholar profile. When you have your direct profile URL, replace `https://scholar.google.com/scholar?q=%22Abdullah+Al+Miraj%22` in `index.html` with that URL and change the label to `Google Scholar`.
+The Google Scholar link intentionally goes to a **search result** for your name, not a direct profile (no profile URL could be verified). Update when you provide the actual profile URL.
 
-### Update publication records
+### Publications
 
-Six peer-reviewed publications are listed, plus one submitted manuscript separately. Add DOI links and update manuscript status as it changes. Some research outcomes and publication dates should be reviewed before public launch.
+Six peer-reviewed publications are listed, plus a separate **submitted manuscript**. Check publication statuses and your latest details before final publishing. Publication filters are client-side and need no external dependencies.
 
-## Built-in features
+## Design & compatibility
 
-- Responsive desktop/tablet/mobile layouts
-- Accessible navigation and reduced-motion support
-- Interactive publication year filters
-- Functional email, LinkedIn, GitHub, paper DOI, and CV links
-- Semantic headings, SEO metadata, social sharing image, favicon, JSON-LD Person schema
-- Zero build tools; compatible with free GitHub Pages static hosting
-
-## Attribution
-
-Research and career content: Abdullah Al Miraj. Original editorial layout and SVG diagrams created for this website. No affiliation endorsement is implied.
+- Warm editorial typography and a deep forest-green research feature area.
+- Accessible high-contrast text, mobile-first navigation, keyboard support, and reduced-motion preference.
+- Responsive desktop, tablet, and phone layouts.
+- No frameworks/build steps; plain static HTML/CSS/JavaScript.
+- Font files are **not** bundled; Google Fonts will load on connected browsers and system font fallbacks work offline.

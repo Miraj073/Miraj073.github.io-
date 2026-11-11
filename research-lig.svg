@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="610" viewBox="0 0 840 610">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4b7768"/><stop offset="1" stop-color="#153c32"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe1aa"/><stop offset=".3" stop-color="#d69456"/><stop offset=".56" stop-color="#9a532f"/><stop offset=".87" stop-color="#fad18d"/><stop offset="1" stop-color="#c98247"/></linearGradient>
+ <linearGradient id="base" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#aebea2"/><stop offset=".5" stop-color="#6f8c74"/><stop offset="1" stop-color="#344f42"/></linearGradient>
+ <filter id="f"><feDropShadow dx="0" dy="20" stdDeviation="25" flood-opacity=".55" flood-color="#091d18"/></filter>
+ <pattern id="mesh" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 0h16M0 0v16" stroke="#f0ddaf" stroke-width=".6" opacity=".16"/></pattern>
+</defs>
+<rect width="840" height="610" fill="url(#bg)"/>
+<g fill="none" opacity=".14" stroke="#eff8e9"><circle cx="422" cy="300" r="210"/><circle cx="422" cy="300" r="265"/><circle cx="422" cy="300" r="330"/><path d="M0 300h840M420 0v610"/></g>
+<g transform="translate(126 143) rotate(-13 300 180)" filter="url(#f)">
+ <rect x="35" y="31" width="615" height="360" rx="25" fill="#162e27" opacity=".7"/>
+ <rect width="615" height="360" rx="23" fill="url(#base)" stroke="#9db39c" stroke-width="3"/>
+ <rect x="22" y="24" width="570" height="314" rx="12" fill="#142b27" stroke="#d7d2ae" stroke-width="3"/>
+ <rect x="22" y="24" width="570" height="314" fill="url(#mesh)"/>
+ <g stroke="url(#metal)" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M84 67v230M528 67v230"/>
+  <path d="M84 85H449M84 124H449M84 163H449M84 202H449M84 241H449M84 280H449"/>
+  <path d="M528 104H164M528 143H164M528 182H164M528 221H164M528 260H164"/>
+ </g>
+ <g stroke="#ffdba1" stroke-width="2" opacity=".6"><path d="M88 83H449M88 122H449M88 161H449M88 200H449M88 239H449M88 278H449"/></g>
+ <circle cx="84" cy="300" r="14" fill="#f9bd75" stroke="#fff1cb" stroke-width="3"/><circle cx="528" cy="65" r="14" fill="#f9bd75" stroke="#fff1cb" stroke-width="3"/>
+</g>
+<g font-family="monospace" fill="#e1eddd" font-size="13" letter-spacing="3"><text x="34" y="43">FLEXIBLE PLATFORM</text><text x="625" y="559">LIG + Cu</text></g>
+<path d="M637 135h112M637 135v48" stroke="#c5e3c6" stroke-width="1.5" fill="none" opacity=".7"/><circle cx="637" cy="135" r="4" fill="#d8bc83"/>
+</svg>

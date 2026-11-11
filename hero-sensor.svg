@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="510" viewBox="0 0 720 510" role="img" aria-label="Fine interdigitated copper electrodes on a flexible Kapton substrate">
+<defs>
+ <linearGradient id="kapton" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b9ac7a"/><stop offset=".46" stop-color="#e0d5a6"/><stop offset="1" stop-color="#978f6c"/></linearGradient>
+ <linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3b0"/><stop offset=".28" stop-color="#e7aa63"/><stop offset=".55" stop-color="#bb6e35"/><stop offset=".8" stop-color="#f9cf80"/><stop offset="1" stop-color="#a96c3e"/></linearGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="19" stdDeviation="16" flood-color="#061c15" flood-opacity=".6"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+ <pattern id="grain" width="11" height="11" patternUnits="userSpaceOnUse"><path d="M0 0h1v1H0zM6 5h1v1h-1z" fill="#302c1e" opacity=".12"/></pattern>
+ <linearGradient id="halo" x1="0" x2="1"><stop stop-color="#bce5be" stop-opacity=".1"/><stop offset=".5" stop-color="#d3f4c8" stop-opacity=".45"/><stop offset="1" stop-color="#bce5be" stop-opacity=".1"/></linearGradient>
+</defs>
+<g opacity=".45" fill="none" stroke="#c9dfc9"><ellipse cx="365" cy="247" rx="262" ry="198" stroke-dasharray="5 12"/><circle cx="365" cy="247" r="163" stroke-opacity=".28"/><path d="M80 248h560M364 30v455" stroke-opacity=".16"/></g>
+<g transform="rotate(-9 362 254)" filter="url(#shadow)">
+ <rect x="143" y="94" rx="27" width="440" height="320" fill="#263f34" opacity=".55"/>
+ <rect x="121" y="71" rx="24" width="440" height="320" fill="url(#kapton)" stroke="#eee1b1" stroke-width="4"/>
+ <rect x="121" y="71" rx="24" width="440" height="320" fill="url(#grain)"/>
+ <rect x="150" y="99" rx="13" width="382" height="265" fill="#4a493a" stroke="#8f8067" stroke-width="3"/>
+ <g opacity=".19" stroke="#dab88b"><path d="M165 112h350M165 127h350M165 142h350M165 157h350M165 172h350M165 187h350M165 202h350M165 217h350M165 232h350M165 247h350M165 262h350M165 277h350M165 292h350M165 307h350M165 322h350M165 337h350" stroke-width=".6"/></g>
+ <g fill="none" stroke="url(#cu)" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M201 131H475"/><path d="M203 131v195"/><path d="M475 131v195"/>
+  <path d="M203 166H405M203 198H405M203 230H405M203 262H405M203 294H405"/>
+  <path d="M475 150H277M475 182H277M475 214H277M475 246H277M475 278H277M475 310H277"/>
+ </g>
+ <g fill="#fde1a2" stroke="#885b37" stroke-width="2"><circle cx="203" cy="132" r="12"/><circle cx="475" cy="325" r="12"/></g>
+ <path d="M500 340h18" stroke="#e9c795" stroke-width="2"/><text x="151" y="382" font-family="monospace" font-size="12" letter-spacing="4" fill="#284137">KAPTON / LIG</text>
+</g>
+<g fill="#d9eee0" font-size="11" font-family="monospace" letter-spacing="2"><path d="M500 123l75-44h65" stroke="#c5dfc1" fill="none" stroke-width="1.3"/><text x="573" y="69">Cu TRACES</text><path d="M157 365l-70 38H30" stroke="#c5dfc1" fill="none" stroke-width="1.3"/><text x="17" y="426">FLEXIBLE PI</text></g>
+</svg>
